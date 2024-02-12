@@ -25,3 +25,6 @@ This repository contains updates to my personal resume page website. The updates
 
 ## Feedback and Suggestions
 Your feedback and suggestions are highly appreciated! If you have any ideas for further improvements or if you encounter any issues while viewing the updates, please don't hesitate to open an issue or reach out to me directly.
+
+## Site you can view
+### [Click here to view the Perfessional Portfolio](https://davidhccnguyen.github.io/Professional-Portfolio/)
