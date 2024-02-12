@@ -1,0 +1,162 @@
+/* Global styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    min-height: 100vh;
+}
+
+/* Header styles */
+header {
+    background-color: lightskyblue;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Sidebar styles */
+nav {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: darkgreen;
+    color: #fff;
+    padding-top: 60px;
+    transition: left 0.3s ease;
+    justify-content: center;
+    display: flex;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+nav ul li:hover {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    color: #fff;
+}
+
+/* Section styles */
+section {
+    padding: 20px;
+    margin-top: 60px;
+}
+
+/* Footer styles */
+footer {
+    background-color: darkred;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Show sidebar button styles */
+.show-sidebar {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+
+.show-sidebar:hover {
+    background-color: #555;
+}
+
+/* Linked text styles */
+a {
+    color: #00bfff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Image styles */
+img {
+    max-width: 100%;
+    height: 300px;
+    border: black solid 2px;
+    border-radius: 10px;
+}
+
+/* Github section styles */
+#github {
+    background-color: #f4f4f4;
+}
+
+/* Hidden content styles */
+.hidden {
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.visible {
+    opacity: 1;
+}
+
+/* Slide-in animation */
+.slide-in {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.slide-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Toggle Dark Mode button styles */
+.toggle-dark-mode {
+    position: fixed;
+    bottom: 20px;
+    right: 150px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+
+.toggle-dark-mode:hover {
+    background-color: #555;
+}
